@@ -7,7 +7,7 @@ public class UniversityEvaluationDemo {
         students[1] = new UGCourseEvaluation("Sara", "Business Studies", 70, 66);
         students[2] = new PGCourseEvaluation("Mina", "Data Science", 85, 72);
         students[3] = new PGCourseEvaluation("John", "Cyber Security", 60, 68);
-        students[4] = new CertificateCourseEvaluation("Ravi", "Cloud Basics", 30, 40);
+        students[4] = new DiplomaCourseEvaluation("Ravi", "Cloud Basics", 30, 40);
 
         System.out.println("=== University Evaluation System ===");
         for (StudentEvaluation student : students) {
